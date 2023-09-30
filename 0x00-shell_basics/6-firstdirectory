@@ -1,0 +1,4 @@
+#!/bin/bash
+target="/tmp/my_first_directory"
+mkdir "$target"
+    echo "$target"
