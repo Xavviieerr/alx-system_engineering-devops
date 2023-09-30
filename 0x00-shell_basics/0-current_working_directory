@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "my current directory:$(pwd)\n"
+echo  "$(pwd)"
