@@ -1,2 +1,2 @@
 #!/bin/bash
-(tail -n 1 iacta >> godMode)(tail -n 1 godMode >> godMode)
+tail -n 1 iacta | tee >(cat >> godMode)
