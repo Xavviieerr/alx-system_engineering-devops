@@ -1,0 +1,2 @@
+#!/bin/bas
+IFS=":" read -ra path_dirs <<< "$PATH"; echo " ${#path_dirs[@]}"
