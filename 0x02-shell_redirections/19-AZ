@@ -1,0 +1,2 @@
+#!/bin/bash
+input="YourInputString" output="${input//A/Z}"; output="${output//c/e}"; echo "$output"
